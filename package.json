@@ -1,0 +1,20 @@
+{
+  "name": "how-to-do-frontend-when-you-are-a-backend",
+  "version": "1.0.0",
+  "description": "Presentation for non-javascript backend engineers who want to do frontend",
+  "main": "src/deck.mdx",
+  "repository": "https://github.com/jmagrippis/how-to-do-frontend-when-you-are-a-backend",
+  "author": "Johnny Magrippis <j@magrippis.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "react": "16.9.0"
+  },
+  "devDependencies": {
+    "mdx-deck": "^3.0.9"
+  },
+  "scripts": {
+    "start": "mdx-deck src/deck.mdx"
+  }
+}
